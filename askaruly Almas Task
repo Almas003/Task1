@@ -1,0 +1,6 @@
+from itertools import permutations
+ 
+chars = permutations(['a','b', 'c'])
+
+for i in list(chars):
+    print (i)
